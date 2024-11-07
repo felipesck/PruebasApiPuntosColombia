@@ -30,7 +30,6 @@ Feature: Get user on reqres
     And match evolutions[0].species.name == 'charmeleon'
     And match evolutions[0].evolves_to[0].species.name == 'charizard'
 
-Feature: Obtener y ordenar movimientos de Squirtle
   Scenario: Obtener y ordenar alfabéticamente los movimientos de Squirtle
     # Paso 1: Obtener los datos de Squirtle
     Given url 'https://pokeapi.co/api/v2/pokemon/squirtle'
