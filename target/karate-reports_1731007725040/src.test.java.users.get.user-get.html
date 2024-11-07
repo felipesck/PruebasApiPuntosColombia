@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.users.get.user-get</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2024-11-07 02:25:05 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1.1:12]"><span>[1.1:12]</span> <span>Obtener evoluciones de charmander</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/users/get/user-get.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Get user on reqres</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.1:12]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.1:12]</span>
+                <span class="scenario-name">Obtener evoluciones de charmander</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>920</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.4">
+      <div class="step-ref passed">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://pokeapi.co/api/v2/pokemon-species/charmander&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">51</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">838</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.5">14:25:05.327 request:
+1 &gt; GET https://pokeapi.co/api/v2/pokemon-species/charmander
+1 &gt; Host: pokeapi.co
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+14:25:05.767 response time in milliseconds: 440
+1 &lt; 200
+1 &lt; Date: Thu, 07 Nov 2024 19:25:05 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Connection: keep-alive
+1 &lt; cache-control: public, max-age=86400, s-maxage=86400
+1 &lt; etag: W/&quot;7a41-uKf5yZLtPB7QIevpmP1q3lW9RVI&quot;
+1 &lt; function-execution-id: 84c0jaxt1syt
+1 &lt; strict-transport-security: max-age=31556926
+1 &lt; x-cloud-trace-context: 53bb4e2595edeef7318f2327eb273a06
+1 &lt; x-country-code: US
+1 &lt; x-orig-accept-language: en-US
+1 &lt; x-powered-by: Express
+1 &lt; accept-ranges: bytes
+1 &lt; x-served-by: cache-mia-kmia1760056-MIA
+1 &lt; x-cache: HIT
+1 &lt; x-cache-hits: 0
+1 &lt; x-timer: S1729277275.708490,VS0,VE1
+1 &lt; vary: Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+1 &lt; Age: 27
+1 &lt; cf-cache-status: HIT
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v4?s=%2BT%2BXrLpZI0DMxoeh8fkVLWoOh%2BJsnO3fRXbXVcI9NvglpJwBDzYKCnDqla3f%2FCqHd46IX%2BSeQxWcreEV%2BYe8EofY1icuv4d%2FHIO39QGpJeNqsUFQrduL77NNDkx8&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 8defb50d3eb5a530-MIA
+1 &lt; server-timing: cfL4;desc=&quot;?proto=TCP&amp;rtt=73190&amp;sent=5&amp;recv=8&amp;lost=0&amp;retrans=0&amp;sent_bytes=2838&amp;recv_bytes=554&amp;delivery_rate=40396&amp;cwnd=246&amp;unsent_bytes=0&amp;cid=39165bcf4ce5ddf4&amp;ts=224&amp;x=0&quot;
+{&quot;base_happiness&quot;:50,&quot;capture_rate&quot;:45,&quot;color&quot;:{&quot;name&quot;:&quot;red&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/pokemon-color/8/&quot;},&quot;egg_groups&quot;:[{&quot;name&quot;:&quot;monster&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/egg-group/1/&quot;},{&quot;name&quot;:&quot;dragon&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/egg-group/14/&quot;}],&quot;evolution_chain&quot;:{&quot;url&quot;:&quot;https://pokeapi.co/api/v2/evolution-chain/2/&quot;},&quot;evolves_from_species&quot;:null,&quot;flavor_text_entries&quot;:[{&quot;flavor_text&quot;:&quot;Obviously prefers\nhot places. When\nit rains, steam\fis said to spout\nfrom the tip of\nits tail.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;red&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/1/&quot;}},{&quot;flavor_text&quot;:&quot;Obviously prefers\nhot places. When\nit rains, steam\fis said to spout\nfrom the tip of\nits tail.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;blue&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/2/&quot;}},{&quot;flavor_text&quot;:&quot;The flame at the\ntip of its tail\nmakes a sound as\fit burns. You can\nonly hear it in\nquiet places.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;yellow&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/3/&quot;}},{&quot;flavor_text&quot;:&quot;The flame on its\ntail shows the\nstrength of its\flife force. If it\nis weak, the flame\nalso burns weakly.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;gold&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/4/&quot;}},{&quot;flavor_text&quot;:&quot;The flame on its\ntail indicates\nCHARMANDER&#39;s life\fforce. If it is\nhealthy, the flame\nburns brightly.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;silver&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/5/&quot;}},{&quot;flavor_text&quot;:&quot;If it&#39;s healthy,\nthe flame on the\ntip of its tail\fwill burn vigor­\nously, even if it\ngets a bit wet.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;crystal&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/6/&quot;}},{&quot;flavor_text&quot;:&quot;The flame that burns at the tip of its\ntail is an indication of its emotions.\nThe flame wavers when CHARMANDER is\fenjoying itself. If the POKéMON becomes\nenraged, the flame burns fiercely.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;ruby&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/7/&quot;}},{&quot;flavor_text&quot;:&quot;The flame that burns at the tip of its\ntail is an indication of its emotions.\nThe flame wavers when CHARMANDER is\fenjoying itself. If the POKéMON becomes\nenraged, the flame burns fiercely.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;sapphire&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/8/&quot;}},{&quot;flavor_text&quot;:&quot;The flame that burns at the tip of its\ntail is an indication of its emotions.\nThe flame wavers when CHARMANDER is\nhappy, and blazes when it is enraged.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;emerald&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/9/&quot;}},{&quot;flavor_text&quot;:&quot;From the time it is born, a flame burns\nat the tip of its tail. Its life would end\nif the flame were to go out.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;firered&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/10/&quot;}},{&quot;flavor_text&quot;:&quot;It has a preference for hot things.\nWhen it rains, steam is said to spout from\nthe tip of its tail.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;leafgreen&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/11/&quot;}},{&quot;flavor_text&quot;:&quot;The fire on the tip of its tail is a\nmeasure of its life. If healthy,\nits tail burns intensely.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;diamond&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/12/&quot;}},{&quot;flavor_text&quot;:&quot;The fire on the tip of its tail is a\nmeasure of its life. If healthy,\nits tail burns intensely.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;pearl&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/13/&quot;}},{&quot;flavor_text&quot;:&quot;The fire on the tip of its tail is a\nmeasure of its life. If healthy,\nits tail burns intensely.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;platinum&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/14/&quot;}},{&quot;flavor_text&quot;:&quot;The flame on its tail shows the\nstrength of its life force. If it is weak,\nthe flame also burns weakly.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;heartgold&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/15/&quot;}},{&quot;flavor_text&quot;:&quot;The flame on its tail indicates\nCHARMANDER’s life force. If it is\nhealthy, the flame burns brightly.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;soulsilver&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/16/&quot;}},{&quot;flavor_text&quot;:&quot;La flamme de sa queue symbolise sa\nvitalité. Elle est intense quand il\nest en bonne santé.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;fr&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/5/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;black&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/17/&quot;}},{&quot;flavor_text&quot;:&quot;The fire on the tip of its tail is a\nmeasure of its life. If healthy,\nits tail burns intensely.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;black&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/17/&quot;}},{&quot;flavor_text&quot;:&quot;La flamme de sa queue symbolise sa\nvitalité. Elle est intense quand il\nest en bonne santé.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;fr&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/5/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;white&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/18/&quot;}},{&quot;flavor_text&quot;:&quot;The fire on the tip of its tail is a\nmeasure of its life. If healthy,\nits tail burns intensely.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;white&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/18/&quot;}},{&quot;flavor_text&quot;:&quot;The fire on the tip of its tail is a\nmeasure of its life. If healthy,\nits tail burns intensely.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;black-2&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/21/&quot;}},{&quot;flavor_text&quot;:&quot;The fire on the tip of its tail is a\nmeasure of its life. If healthy,\nits tail burns intensely.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;white-2&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/22/&quot;}},{&quot;flavor_text&quot;:&quot;しっぽの　ほのおは　ヒトカゲの\nせいめいりょくの　あかし。\nげんきだと　さかんに　もえさかる。&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ja-Hrkt&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/1/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;x&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/23/&quot;}},{&quot;flavor_text&quot;:&quot;꼬리의 불꽃은 파이리의\n생명력의 상징이다.\n건강할 때 왕성하게 불타오른다.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ko&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/3/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;x&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/23/&quot;}},{&quot;flavor_text&quot;:&quot;La flamme sur sa queue représente l’énergie vitale\nde Salamèche. Quand il est vigoureux, elle brûle plus\nfort.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;fr&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/5/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;x&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/23/&quot;}},{&quot;flavor_text&quot;:&quot;Die Flamme auf seiner Schweifspitze zeigt die\nLebensenergie an. Ist es gesund, leuchtet sie hell.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;de&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/6/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;x&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/23/&quot;}},{&quot;flavor_text&quot;:&quot;La llama de su cola indica la fuerza vital de\nCharmander. Será brillante si está sano.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;es&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/7/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;x&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/23/&quot;}},{&quot;flavor_text&quot;:&quot;La fiamma che Charmander ha sulla coda indica la\nsua forza vitale. Se è in forma, la fiamma è vivace.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;it&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/8/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;x&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/23/&quot;}},{&quot;flavor_text&quot;:&quot;The flame on its tail indicates Charmander’s life\nforce. If it is healthy, the flame burns brightly.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;x&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/23/&quot;}},{&quot;flavor_text&quot;:&quot;尻尾の　炎は\nヒトカゲの　生命力の　証。\n元気だと　さかんに　燃えさかる。&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ja&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/11/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;x&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/23/&quot;}},{&quot;flavor_text&quot;:&quot;うまれたときから　しっぽに　ほのおが\nともっている。ほのおが　きえたとき\nその　いのちは　おわって　しまう。&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ja-Hrkt&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/1/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;y&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/24/&quot;}},{&quot;flavor_text&quot;:&quot;태어날 때부터 꼬리의 불꽃이\n타오르고 있다. 불꽃이 꺼지면\n그 생명이 다하고 만다.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ko&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/3/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;y&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/24/&quot;}},{&quot;flavor_text&quot;:&quot;Depuis sa naissance, une petite flamme brûle au bout\nde sa queue. Si cette flamme s’éteint, la vie de ce\nPokémon s’éteindra elle aussi.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;fr&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/5/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;y&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/24/&quot;}},{&quot;flavor_text&quot;:&quot;Von Geburt an brennt die Flamme auf seiner\nSchwanzspitze. Sobald sie erlischt, erlischt auch\nsein Lebenslicht.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;de&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/6/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;y&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/24/&quot;}},{&quot;flavor_text&quot;:&quot;Este Pokémon nace con una llama en la punta de la\ncola. Si la llama se apagara, el Pokémon se debilitaría.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;es&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/7/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;y&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/24/&quot;}},{&quot;flavor_text&quot;:&quot;Dalla nascita una fiamma gli arde sulla punta della\ncoda. Se si spegnesse, per lui sarebbe la fine.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;it&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/8/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;y&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/24/&quot;}},{&quot;flavor_text&quot;:&quot;From the time it is born, a flame burns at the tip of\nits tail. Its life would end if the flame were to\ngo out.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;y&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/24/&quot;}},{&quot;flavor_text&quot;:&quot;生まれたときから　尻尾に　炎が\n点っている。炎が　消えたとき\nその　命は　終わってしまう。&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ja&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/11/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;y&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/24/&quot;}},{&quot;flavor_text&quot;:&quot;しっぽの　ほのおは　きぶんを　ひょうげん。\nたのしい　ときには　ゆらゆら　ほのおが　ゆれて\nおこった　ときには　めらめら　さかんに　もえる。&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ja-Hrkt&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/1/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;omega-ruby&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/25/&quot;}},{&quot;flavor_text&quot;:&quot;꼬리의 불꽃은 기분을 표현한다.\n즐거울 때는 흔들흔들 불꽃이 흔들리고\n화가 났을 때는 활활 맹렬히 불타오른다.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ko&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/3/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;omega-ruby&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/25/&quot;}},{&quot;flavor_text&quot;:&quot;La flamme qui brûle au bout de sa queue indique l’humeur\nde ce Pokémon. Elle vacille lorsque Salamèche est content.\nEn revanche, lorsqu’il s’énerve, la flamme prend\nde l’importance et brûle plus ardemment.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;fr&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/5/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;omega-ruby&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/25/&quot;}},{&quot;flavor_text&quot;:&quot;Die Flamme auf seiner Schweifspitze zeigt seine\nGefühlslage an. Sie flackert, wenn Glumanda\nzufrieden ist. Wenn dieses Pokémon wütend wird,\nlodert die Flamme gewaltig.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;de&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/6/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;omega-ruby&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/25/&quot;}},{&quot;flavor_text&quot;:&quot;La llama que tiene en la punta de la cola arde según sus\nsentimientos. Llamea levemente cuando está alegre y arde\nvigorosamente cuando está enfadado.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;es&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/7/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;omega-ruby&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/25/&quot;}},{&quot;flavor_text&quot;:&quot;La fiamma sulla punta della coda indica il suo stato emotivo.\nSe la fiamma ondeggia significa che Charmander si sta\ndivertendo. Quando il Pokémon si infuria, la fiamma arde\nviolentemente.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;it&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/8/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;omega-ruby&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/25/&quot;}},{&quot;flavor_text&quot;:&quot;The flame that burns at the tip of its tail is an indication\nof its emotions. The flame wavers when Charmander\nis enjoying itself. If the Pokémon becomes enraged,\nthe flame burns fiercely.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;omega-ruby&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/25/&quot;}},{&quot;flavor_text&quot;:&quot;尻尾の　炎は　気分を　表現。\n楽しい　ときには　ゆらゆら　炎が　ゆれて\n怒った　ときには　めらめら　盛んに　燃える。&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ja&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/11/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;omega-ruby&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/25/&quot;}},{&quot;flavor_text&quot;:&quot;しっぽの　ほのおは　きぶんを　ひょうげん。\nたのしい　ときには　ゆらゆら　ほのおが　ゆれて\nおこった　ときには　めらめら　さかんに　もえる。&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ja-Hrkt&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/1/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;alpha-sapphire&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/26/&quot;}},{&quot;flavor_text&quot;:&quot;꼬리의 불꽃은 기분을 표현한다.\n즐거울 때는 흔들흔들 불꽃이 흔들리고\n화가 났을 때는 활활 맹렬히 불타오른다.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ko&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/3/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;alpha-sapphire&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/26/&quot;}},{&quot;flavor_text&quot;:&quot;La flamme qui brûle au bout de sa queue indique l’humeur\nde ce Pokémon. Elle vacille lorsque Salamèche est content.\nEn revanche, lorsqu’il s’énerve, la flamme prend\nde l’importance et brûle plus ardemment.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;fr&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/5/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;alpha-sapphire&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/26/&quot;}},{&quot;flavor_text&quot;:&quot;Die Flamme auf seiner Schweifspitze zeigt seine\nGefühlslage an. Sie flackert, wenn Glumanda\nzufrieden ist. Wenn dieses Pokémon wütend wird,\nlodert die Flamme sehr stark.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;de&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/6/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;alpha-sapphire&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/26/&quot;}},{&quot;flavor_text&quot;:&quot;La llama que tiene en la punta de la cola arde según sus\nsentimientos. Llamea levemente cuando está alegre y arde\nvigorosamente cuando está enfadado.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;es&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/7/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;alpha-sapphire&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/26/&quot;}},{&quot;flavor_text&quot;:&quot;La fiamma sulla punta della coda indica il suo stato emotivo.\nSe la fiamma ondeggia significa che Charmander si sta\ndivertendo. Quando il Pokémon si infuria, la fiamma arde\nviolentemente.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;it&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/8/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;alpha-sapphire&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/26/&quot;}},{&quot;flavor_text&quot;:&quot;The flame that burns at the tip of its tail is an indication\nof its emotions. The flame wavers when Charmander\nis enjoying itself. If the Pokémon becomes enraged,\nthe flame burns fiercely.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;alpha-sapphire&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/26/&quot;}},{&quot;flavor_text&quot;:&quot;尻尾の　炎は　気分を　表現。\n楽しい　ときには　ゆらゆら　炎が　ゆれて\n怒った　ときには　めらめら　盛んに　燃える。&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ja&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/11/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;alpha-sapphire&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/26/&quot;}},{&quot;flavor_text&quot;:&quot;しずかな　ところに　つれていくと\nシッポが　もえてる　ちいさな　おとが\nきこえてくるよ。&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ja-Hrkt&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/1/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;lets-go-pikachu&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/31/&quot;}},{&quot;flavor_text&quot;:&quot;조용한 곳에 데려가면\n꼬리가 타고 있는\n작은 소리가 들린다.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ko&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/3/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;lets-go-pikachu&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/31/&quot;}},{&quot;flavor_text&quot;:&quot;要是把牠帶到安靜的地方，\n就能聽見牠的尾巴燃燒時\n發出的微小聲音。&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;zh-Hant&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/4/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;lets-go-pikachu&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/31/&quot;}},{&quot;flavor_text&quot;:&quot;La flammèche au bout de sa queue émet\nun crépitement audible seulement dans\nles endroits calmes.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;fr&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/5/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;lets-go-pikachu&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/31/&quot;}},{&quot;flavor_text&quot;:&quot;An sehr stillen Orten kann man seine brennende\nSchwanzspitze ganz leise lodern hören.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;de&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/6/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;lets-go-pikachu&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/31/&quot;}},{&quot;flavor_text&quot;:&quot;En lugares silenciosos se puede oír el débil\nchisporroteo de la llama que le arde en la\npunta de la cola.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;es&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/7/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;lets-go-pikachu&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/31/&quot;}},{&quot;flavor_text&quot;:&quot;Nel silenzio più assoluto si può udire la fiamma\nin cima alla sua coda scoppiettare bruciando.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;it&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/8/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;lets-go-pikachu&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/31/&quot;}},{&quot;flavor_text&quot;:&quot;The flame at the tip of its tail makes a sound as\nit burns. You can only hear it in quiet places.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;lets-go-pikachu&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/31/&quot;}},{&quot;flavor_text&quot;:&quot;静かな　ところに　連れていくと\nシッポが　燃えてる　小さな　音が\n聞こえてくるよ。&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ja&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/11/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;lets-go-pikachu&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/31/&quot;}},{&quot;flavor_text&quot;:&quot;要是把它带到安静的地方，\n就能听到它的尾巴燃烧时\n发出的微小的声音。&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;zh-Hans&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/12/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;lets-go-pikachu&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/31/&quot;}},{&quot;flavor_text&quot;:&quot;しずかな　ところに　つれていくと\nシッポが　もえてる　ちいさな　おとが\nきこえてくるよ。&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ja-Hrkt&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/1/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;lets-go-eevee&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/32/&quot;}},{&quot;flavor_text&quot;:&quot;조용한 곳에 데려가면\n꼬리가 타고 있는\n작은 소리가 들린다.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ko&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/3/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;lets-go-eevee&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/32/&quot;}},{&quot;flavor_text&quot;:&quot;要是把牠帶到安靜的地方，\n就能聽見牠的尾巴燃燒時\n發出的微小聲音。&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;zh-Hant&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/4/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;lets-go-eevee&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/32/&quot;}},{&quot;flavor_text&quot;:&quot;La flammèche au bout de sa queue émet\nun crépitement audible seulement dans\nles endroits calmes.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;fr&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/5/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;lets-go-eevee&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/32/&quot;}},{&quot;flavor_text&quot;:&quot;An sehr stillen Orten kann man seine brennende\nSchwanzspitze ganz leise lodern hören.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;de&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/6/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;lets-go-eevee&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/32/&quot;}},{&quot;flavor_text&quot;:&quot;En lugares silenciosos se puede oír el débil\nchisporroteo de la llama que le arde en la\npunta de la cola.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;es&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/7/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;lets-go-eevee&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/32/&quot;}},{&quot;flavor_text&quot;:&quot;Nel silenzio più assoluto si può udire la fiamma\nin cima alla sua coda scoppiettare bruciando.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;it&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/8/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;lets-go-eevee&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/32/&quot;}},{&quot;flavor_text&quot;:&quot;The flame at the tip of its tail makes a sound as\nit burns. You can only hear it in quiet places.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;lets-go-eevee&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/32/&quot;}},{&quot;flavor_text&quot;:&quot;静かな　ところに　連れていくと\nシッポが　燃えてる　小さな　音が\n聞こえてくるよ。&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ja&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/11/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;lets-go-eevee&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/32/&quot;}},{&quot;flavor_text&quot;:&quot;要是把它带到安静的地方，\n就能听到它的尾巴燃烧时\n发出的微小的声音。&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;zh-Hans&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/12/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;lets-go-eevee&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/32/&quot;}},{&quot;flavor_text&quot;:&quot;あついものを　このむ　せいかく。\nあめにぬれると　しっぽの　さきから\nけむりが　でるという。&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ja-Hrkt&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/1/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;sword&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/33/&quot;}},{&quot;flavor_text&quot;:&quot;뜨거운 것을 좋아하는 성격이다.\n비에 젖으면 꼬리 끝에서\n연기가 난다고 한다.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ko&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/3/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;sword&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/33/&quot;}},{&quot;flavor_text&quot;:&quot;天生喜歡熱熱的東西。\n據說當牠被雨淋濕的時候，\n尾巴的末端會冒出煙來。&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;zh-Hant&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/4/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;sword&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/33/&quot;}},{&quot;flavor_text&quot;:&quot;Il préfère ce qui est chaud.\nEn cas de pluie, de la vapeur se forme autour\nde sa queue.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;fr&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/5/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;sword&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/33/&quot;}},{&quot;flavor_text&quot;:&quot;Dieses Pokémon bevorzugt heiße Dinge.\nBei Regen soll seine Schwanzspitze dampfen.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;de&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/6/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;sword&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/33/&quot;}},{&quot;flavor_text&quot;:&quot;Prefiere las cosas calientes. Dicen que cuando\nllueve le sale vapor de la punta de la cola.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;es&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/7/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;sword&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/33/&quot;}},{&quot;flavor_text&quot;:&quot;Ama le cose calde. Si dice che quando piove\ngli esca vapore dalla punta della coda.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;it&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/8/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;sword&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/33/&quot;}},{&quot;flavor_text&quot;:&quot;It has a preference for hot things. When it rains,\nsteam is said to spout from the tip of its tail.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;sword&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/33/&quot;}},{&quot;flavor_text&quot;:&quot;熱いものを　好む　性格。\n雨に濡れると　しっぽの　先から\n煙が　出るという。&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ja&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/11/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;sword&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/33/&quot;}},{&quot;flavor_text&quot;:&quot;天生喜欢热热的东西。\n据说当它被雨淋湿的时候，\n尾巴的末端会冒出烟来。&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;zh-Hans&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/12/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;sword&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/33/&quot;}},{&quot;flavor_text&quot;:&quot;うまれたときから　しっぽに　ほのおが\nともっている。　ほのおが　きえたとき\nその　いのちは　おわって　しまう。&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ja-Hrkt&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/1/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;shield&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/34/&quot;}},{&quot;flavor_text&quot;:&quot;태어날 때부터 꼬리에 불꽃이\n타오르고 있다. 불꽃이 꺼지면\n생명도 다하고 만다.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ko&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/3/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;shield&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/34/&quot;}},{&quot;flavor_text&quot;:&quot;從出生時開始尾巴上\n就有火焰在燃燒。\n火焰熄滅時，生命也會結束。&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;zh-Hant&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/4/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;shield&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/34/&quot;}},{&quot;flavor_text&quot;:&quot;Depuis sa naissance, une petite flamme brûle\nau bout de sa queue. Si cette flamme s’éteint,\nla vie de ce Pokémon s’éteindra elle aussi.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;fr&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/5/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;shield&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/34/&quot;}},{&quot;flavor_text&quot;:&quot;Von Geburt an brennt die Flamme auf seiner\nSchwanzspitze. Sobald sie verglimmt, erlischt\nauch sein Lebenslicht.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;de&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/6/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;shield&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/34/&quot;}},{&quot;flavor_text&quot;:&quot;Este Pokémon nace con una llama en la punta de\nla cola. Si se le apagara, fallecería.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;es&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/7/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;shield&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/34/&quot;}},{&quot;flavor_text&quot;:&quot;Una fiamma gli arde sulla punta della coda\nfin dalla nascita. Se si spegnesse, per lui\nsarebbe la fine.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;it&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/8/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;shield&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/34/&quot;}},{&quot;flavor_text&quot;:&quot;From the time it is born, a flame burns at the tip\nof its tail. Its life would end if the flame were to\ngo out.&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;shield&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/34/&quot;}},{&quot;flavor_text&quot;:&quot;生まれたときから　しっぽに　炎が\nともっている。　炎が　消えたとき\nその　命は　終わって　しまう。&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ja&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/11/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;shield&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/34/&quot;}},{&quot;flavor_text&quot;:&quot;生下来的时候，\n尾巴上就有火焰在燃烧。\n火焰熄灭时，它的生命也会结束。&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;zh-Hans&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/12/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;shield&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/version/34/&quot;}}],&quot;form_descriptions&quot;:[],&quot;forms_switchable&quot;:false,&quot;gender_rate&quot;:1,&quot;genera&quot;:[{&quot;genus&quot;:&quot;とかげポケモン&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ja-Hrkt&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/1/&quot;}},{&quot;genus&quot;:&quot;도롱뇽포켓몬&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ko&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/3/&quot;}},{&quot;genus&quot;:&quot;蜥蜴寶可夢&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;zh-Hant&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/4/&quot;}},{&quot;genus&quot;:&quot;Pokémon Lézard&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;fr&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/5/&quot;}},{&quot;genus&quot;:&quot;Echsen-Pokémon&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;de&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/6/&quot;}},{&quot;genus&quot;:&quot;Pokémon Lagartija&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;es&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/7/&quot;}},{&quot;genus&quot;:&quot;Pokémon Lucertola&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;it&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/8/&quot;}},{&quot;genus&quot;:&quot;Lizard Pokémon&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;}},{&quot;genus&quot;:&quot;とかげポケモン&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ja&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/11/&quot;}},{&quot;genus&quot;:&quot;蜥蜴宝可梦&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;zh-Hans&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/12/&quot;}}],&quot;generation&quot;:{&quot;name&quot;:&quot;generation-i&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/generation/1/&quot;},&quot;growth_rate&quot;:{&quot;name&quot;:&quot;medium-slow&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/growth-rate/4/&quot;},&quot;habitat&quot;:{&quot;name&quot;:&quot;mountain&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/pokemon-habitat/4/&quot;},&quot;has_gender_differences&quot;:false,&quot;hatch_counter&quot;:20,&quot;id&quot;:4,&quot;is_baby&quot;:false,&quot;is_legendary&quot;:false,&quot;is_mythical&quot;:false,&quot;name&quot;:&quot;charmander&quot;,&quot;names&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;ja-Hrkt&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/1/&quot;},&quot;name&quot;:&quot;ヒトカゲ&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;roomaji&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/2/&quot;},&quot;name&quot;:&quot;Hitokage&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;ko&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/3/&quot;},&quot;name&quot;:&quot;파이리&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;zh-Hant&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/4/&quot;},&quot;name&quot;:&quot;小火龍&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;fr&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/5/&quot;},&quot;name&quot;:&quot;Salamèche&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;de&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/6/&quot;},&quot;name&quot;:&quot;Glumanda&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;es&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/7/&quot;},&quot;name&quot;:&quot;Charmander&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;it&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/8/&quot;},&quot;name&quot;:&quot;Charmander&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/9/&quot;},&quot;name&quot;:&quot;Charmander&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;ja&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/11/&quot;},&quot;name&quot;:&quot;ヒトカゲ&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;zh-Hans&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/language/12/&quot;},&quot;name&quot;:&quot;小火龙&quot;}],&quot;order&quot;:4,&quot;pal_park_encounters&quot;:[{&quot;area&quot;:{&quot;name&quot;:&quot;field&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/pal-park-area/2/&quot;},&quot;base_score&quot;:50,&quot;rate&quot;:30}],&quot;pokedex_numbers&quot;:[{&quot;entry_number&quot;:4,&quot;pokedex&quot;:{&quot;name&quot;:&quot;national&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/pokedex/1/&quot;}},{&quot;entry_number&quot;:4,&quot;pokedex&quot;:{&quot;name&quot;:&quot;kanto&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/pokedex/2/&quot;}},{&quot;entry_number&quot;:229,&quot;pokedex&quot;:{&quot;name&quot;:&quot;original-johto&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/pokedex/3/&quot;}},{&quot;entry_number&quot;:234,&quot;pokedex&quot;:{&quot;name&quot;:&quot;updated-johto&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/pokedex/7/&quot;}},{&quot;entry_number&quot;:109,&quot;pokedex&quot;:{&quot;name&quot;:&quot;conquest-gallery&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/pokedex/11/&quot;}},{&quot;entry_number&quot;:83,&quot;pokedex&quot;:{&quot;name&quot;:&quot;kalos-central&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/pokedex/12/&quot;}},{&quot;entry_number&quot;:4,&quot;pokedex&quot;:{&quot;name&quot;:&quot;letsgo-kanto&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/pokedex/26/&quot;}},{&quot;entry_number&quot;:378,&quot;pokedex&quot;:{&quot;name&quot;:&quot;galar&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/pokedex/27/&quot;}},{&quot;entry_number&quot;:167,&quot;pokedex&quot;:{&quot;name&quot;:&quot;blueberry&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/pokedex/33/&quot;}}],&quot;shape&quot;:{&quot;name&quot;:&quot;upright&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/pokemon-shape/6/&quot;},&quot;varieties&quot;:[{&quot;is_default&quot;:true,&quot;pokemon&quot;:{&quot;name&quot;:&quot;charmander&quot;,&quot;url&quot;:&quot;https://pokeapi.co/api/v2/pokemon/4/&quot;}}]}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.6">
+      <div class="step-ref passed">6</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.7">
+      <div class="step-ref failed">7</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>match response.evolves_from_species.name == charmeleon</span>
+      </div>
+    </div>
+    <div class="time-cell failed">31</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.7">14:25:05.814 src/test/java/users/get/user-get.feature:7
+And match response.evolves_from_species.name == charmeleon
+js failed:
+&gt;&gt;&gt;&gt;
+01: charmeleon
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;charmeleon&quot; is not defined
+- &lt;js&gt;.:program(Unnamed:1)
+
+src/test/java/users/get/user-get.feature:7
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.8">
+      <div class="step-ref skipped">8</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response.evolves_to_species.name == charizard</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
