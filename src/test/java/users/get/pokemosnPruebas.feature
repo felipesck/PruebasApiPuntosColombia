@@ -30,3 +30,33 @@ Feature: Get user on reqres
     And match evolutions[0].species.name == 'charmeleon'
     And match evolutions[0].evolves_to[0].species.name == 'charizard'
 
+Feature: Obtener y ordenar movimientos de Squirtle
+  Scenario: Obtener y ordenar alfabéticamente los movimientos de Squirtle
+    # Paso 1: Obtener los datos de Squirtle
+    Given url 'https://pokeapi.co/api/v2/pokemon/squirtle'
+    When method GET
+    Then status 200
+    * def moves = response.moves
+
+    # Paso 2: Extraer los nombres de los movimientos
+    * def moveNames = []
+    * karate.forEach(moves, function(x){ moveNames.add(x.move.name) })
+
+    # Paso 3: Implementar Bubble Sort para ordenar los nombres alfabéticamente
+    * def bubbleSort = function(arr) {
+        for (var i = 0; i < arr.length; i++) {
+        for (var j = 0; j < arr.length - 1; j++) {
+        if (arr[j] > arr[j + 1]) {
+        var temp = arr[j]
+        arr[j] = arr[j + 1]
+        arr[j + 1] = temp
+        }
+        }
+        }
+        return arr
+        }
+    * def sortedMoveNames = bubbleSort(moveNames)
+
+    # Verificar que los nombres están ordenados alfabéticamente
+    And print sortedMoveNames
+
